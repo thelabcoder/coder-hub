@@ -1,0 +1,15 @@
+media:
+  path: public/images # Where uploaded images are saved
+
+content:
+  - name: posts
+    label: Guides
+    type: collection
+    path: content/guides
+    fields:
+      - name: title
+        type: string
+      - name: date
+        type: date
+      - name: body
+        type: rich-text
