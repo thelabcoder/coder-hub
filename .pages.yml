@@ -2,7 +2,7 @@ media:
   path: public/images # Where uploaded images are saved
 
 content:
-  - name: posts
+  - name: guides
     label: Guides
     type: collection
     path: content/guides
